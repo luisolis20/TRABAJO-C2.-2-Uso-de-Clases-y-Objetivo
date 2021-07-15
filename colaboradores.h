@@ -64,5 +64,23 @@ cout<<"|"<<cedula<<"\t";
 	}
  }
 	
-//BECERRA MICHAEL
+//BECERRA MICHAEL Guardado de archivo txt.
+	void guardar(){
+ 	ofstream ar;
+ 	ar.open("registro.txt",ios::out);
+ 	if (ar.fail()){
+ 		cout<<"EEEEEERRRROOOOOORRR";
+ 		exit(1);
+	 }
+	    ar<<"CEDULA: "<<cedula<<endl;
+		ar<<"NOMBRES: "<<nombres<<endl;
+		ar<<"APELLIDOS: "<<apellidos<<endl;
+		ar<<"PESO: "<<peso<<endl;
+		ar<<"ESTATURA:"<<estatura<<endl;
+		ar<<"AA: "<<an<<endl;
+		ar<<"MM: "<<mn<<endl;
+		ar<<"DD: "<<dn<<endl; 
+		cout<<"Guardado con Exito";
+		ar.close();
+ }
 //MONTAŃO LUIS
