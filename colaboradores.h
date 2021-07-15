@@ -2,7 +2,7 @@
 class Persona{
 	
 	private:
-		//fstream archivo;
+		
 		string nombres, apellidos,cedula;
 		int aa,ma,da,an,mn,dn,a,m,d;
 		float peso, estatura,imc;
