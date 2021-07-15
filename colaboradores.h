@@ -50,6 +50,19 @@ cout<<"|"<<cedula<<"\t";
 		}
 
 //BAEZ DANIEL
-//ERAS JOEL
+//ERAS JOEL Calculo de indice masa corporal.
+	void calimc(float i)
+ {
+ 	i=peso/(estatura*estatura);
+ 		cout<<"Su IMC es:"<<i<<endl;
+ 	if (imc<24){
+ 		cout<<"Felicidades"<<endl;
+ 		
+	 
+	}else{
+			cout<<"Estas gordo"<<endl;
+	}
+ }
+	
 //BECERRA MICHAEL
 //MONTAŃO LUIS
