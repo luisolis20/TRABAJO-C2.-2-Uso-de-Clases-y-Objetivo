@@ -110,4 +110,22 @@ a=aa-an;
 		cout<<"Guardado con Exito";
 		ar.close();
  }
-//MONTAŃO LUIS
+//MONTAŃO LUIS Recuperar los datos desde el archivo txt y mostrarlos por pantalla.
+	void rym()
+ {
+ 	ifstream ar;
+ 	string texto;
+ 	ar.open("registro.txt",ios::in);
+ 	if(ar.fail()){
+ 		cout<<"No se abre";
+ 		exit(1);
+ 		
+	 }
+	 while(!ar.eof()){
+	 	getline(ar,texto);
+	 	cout<<texto<<endl;
+	 	
+	 }
+	 ar.close();
+  }	
+};
