@@ -1,5 +1,5 @@
 #####  2021-07-21 16:37:52 Wednesday
-#  A2: PROYECTO FINAL : Documentación de la actividad C2-2 😎
+#  CLASES Y OBJETOS EN C++ 😎
 ![](https://lh3.googleusercontent.com/proxy/QtlDqmc1IhOsiON07diQ9BmAXHpmtqbPm9rVL9eiycUHpPAQKgKQbxfg6aAC2NgNoiwWPQva4r6EEgOiGtBpJE_7Q1uj7NETpOFs0BFO4Mbkn-BmUSQ4xH3b6v_8YYryppssG0hLe9cUG4RN_D0)
 
 #### Este proyecto fue realizado por: 
