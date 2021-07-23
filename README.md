@@ -34,6 +34,7 @@ En este archivo se encuentra la funcion principal (int main), en ella se encuent
 
 ##Descripcíón Del Proyecto 
 El proyecto cuenta con dos archivos anteriormente dichos (inicio.cpp y colaboradores.h)
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-34-49-275.jpg)
 
 ##### El primer archivo (inicio.cpp) cuenta con librerias de varios tipos:
@@ -47,6 +48,7 @@ Cada una de estas librerias va acompañada por un (#include), ademas se le añad
 tambien se añadió un "#include" para hacer el llamado al otro archivo (colaboradores.h)
 
 En el cod lo podemos apreciar de la siguiente manera:
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-24-18-464.jpg)
 
 ##### Dentro de este archivo (inicio.cpp) tenemos una funcion principal "int main":
@@ -57,6 +59,7 @@ Dentro de esta funcion primero declaramos variables de tipo entero (int) y de ti
 Dentro de  esta funcion principal luego creamos un menu de inico que le permitirá al ususario escoger una opción.
 Cada opción tiene un proceso:
 
+
 | Opción  |  Proceso que realiza |
 | ------------ | ------------ |
 |1|Hace el llamado a la función y a la clase (motato.ingresar)(motato.mostrar), esta opción permite al usuario llenar sus datos personales y luego los muestra|
@@ -64,12 +67,15 @@ Cada opción tiene un proceso:
 |3| Hace el llamado a la clase y a la funcion (motato.calimc), esta opción le permite al usuario calcular su índice de masa corporal con su peso y su altura, en caso de que su IMC sea normal se mostrará un mensaje "felicitaciones"    |
 |4| Hace el llamado a la clase y a la función (motato.guardar), esta opcion le permite al usuario crear un archivo txt y guardar los datos ingresados.  |
 |5|  Hace el llamado a la clase y a la función (motato.rym),esta opción permite al usuario recuperar los datos guardados en el archivo txt y mostrarlo por pantalla |
+
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2020-48-53-179.jpg)
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2020-52-21-591.jpg)
 
 ##### En el segundo archivo (colaboradores.h) se encuentran la clase (class Persona) y las funciones.
 
 > En la Clase Persona se declaran los datos privados , estos datos privados son los que no pueden ser alterados.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-07-52-244.jpg)
 
 
