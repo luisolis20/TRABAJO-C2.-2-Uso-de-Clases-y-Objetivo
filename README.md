@@ -57,6 +57,7 @@ Dentro de esta funcion primero declaramos variables de tipo entero (int) y de ti
 > Cuando se hace el llamado a una clase se coloca primero el nombre de la clase y luego se coloca un apodo u otro nombre, ejem: "Persona motato;"
 
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-39-47-835.jpg)
+
 Dentro de  esta funcion principal luego creamos un menu de inico que le permitirá al ususario escoger una opción.
 Cada opción tiene un proceso:
 
@@ -71,6 +72,7 @@ Cada opción tiene un proceso:
 
 
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2020-48-53-179.jpg)
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2020-52-21-591.jpg)
 
 ##### En el segundo archivo (colaboradores.h) se encuentran la clase (class Persona) y las funciones.
@@ -86,36 +88,49 @@ Cada opción tiene un proceso:
 Ahi se encuetran diversos tipos de funciones cada una de ellas hace un proceso distinto:
 
 **La primera función(void ingresar):** En ella se va a ingresar los datos personales y se usa el **getline** para poder ingresar los nombre y apellidos con espacios.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-30-48-922.jpg)
 
 **La segunda función(void mostrar):**En ella se va a mostrar los datos ingresados anteriormente en la primera funcion y utilizamos un **\t** para poder mostrar los datos en forma de una tabla.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-27-13-551.jpg)
 
 **La tercera función (void caledad)**En ella se va a calcular la edad de una persona, primero se evalúa una condición para calcular los días :
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-38-43-975.jpg)
+
 > Esa condición permite identificar si el dia actual es menor al dia de nacimiento, si es menor se resta dia actual y el dia de nacimiento, caso contrario a al dia actual se le aumenta 30, al mes actual se le resta 1 y luego se resta dia actual y el dia de nacimiento. 
 
 Luego se evalúa una condición para calcular los meses:
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-45-17-861.jpg)
+
 > Esa condición permite identificar si el mes actual es menor al mes de nacimiento, si es menor se resta mes actual y el mes de nacimiento, caso contrario a al mes actual se le aumenta 12, al año actual se le resta 1 y luego se resta mes actual y el mes de nacimiento.
 
 Luego se evalúa se resta el año actual y el año de nacimiento
 
 **La cuarta función (void mostraed):**En ella se va a mostrar la edad, los meses que tiene y los dias.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-54-03-299.jpg)
  
 **La quinta función (void calimc):**En ella se va a calcular el indice de masa corporal de una persona.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-58-06-277.jpg)
+
 > Allí se calcula el IMC a partir del peso y la altura de la persona, luego se evalúa una condición, si el IMC es menor a 24 se muestra un mensaje felicitando al usuario, caso contrario le muestra un mensaje diciendo que está gordo
 
  
-:fa-folder-o:**La sexta funcíón (void guardar): **En ella se va guardar los datos ingresados en la primera funcion (void ingresar), y además se crea un archivo txt que se va a guardar donde el usuario tenga descargado el proyecto.
+**La sexta funcíón (void guardar): **En ella se va guardar los datos ingresados en la primera funcion (void ingresar), y además se crea un archivo txt que se va a guardar donde el usuario tenga descargado el proyecto.
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2022-05-07-083.jpg)
+
 > Alli se usa el cod ofstream para crear un archivo, se agrega una variable, esa variable sirve para crear el archivo txt; se coloca el "open" para decirle al programa que nos abra y nos cree un archivo con el siguiente nombre (registro.txt), luego nos evalua una condición, si el archivo falla o no se crea nos muestre un mensaje que diga error, caso contrario nos guarde los datos ingresados en la primera función
 
 
 **La septima función (void rym):**En ella se va a recuperar y mostrar los datos guardados en la sexta función (void guardar).
+
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2022-13-53-744.jpg)
+
 > Allí se usa el cod ifstream que lo que hace es buscarnos el archivo que creamos en la sexta función y al ldao creamos la misma variable que en la sexta función, ademas se crea otra variable de tipo string, esa variable nos va a servir para que el programa nos muestre tod el texto que hay en el archivo de texto que hay en él.
 
 
