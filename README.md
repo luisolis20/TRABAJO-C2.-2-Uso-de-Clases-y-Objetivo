@@ -12,3 +12,22 @@
 |Eras Joel  | Creo la función que le va a permitir calcular el indice de masa corporal. |
 |Becerra Michael  | Creo una función "guardar" usando una librería "fstream" para almacenar los datos. |
 |Montaño Luis  | Creo una función que le va a permitir ¨recuperar¨ y ¨mostrar¨ los datos de un archivo txt usando el ¨if stream¨. |
+
+
+## COMPOSICIÓN DEL PROYECTO 
+
+Los archivos que integran el proyecto son colaboradores.h y inicio.cpp  
+
+
+
+####  ARCHIVO   INICIO.CPP
+En este archivo se encuentra la funcion principal (int main), en ella se encuentra un menu
+#### ARCHIVO COLABORADORES.H
+
+- En este archivo se en cuentra la clase  Persona 
+- Tenemos tambien  una funcion para ingresar datos personales. 
+- Una funcion  para mostar los datos personales
+- Tenemos una funcion que calcula  la edad de las personas. 
+- Otra funcion que nos calcula el indice de masa corporal 
+- Una funcion que nos guarda los datos ingresados 
+- Una que nos recupere y nos muestre los datos ingresados
