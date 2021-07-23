@@ -139,3 +139,35 @@ Luego se evalúa se resta el año actual y el año de nacimiento
 
 
 
+## EJECUCION 
+:tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796: :tw-2796::tw-2796: :tw-2796::tw-2796::tw-2796::tw-2796::tw-2796::tw-2796::tw-2796:
+:fa-check:  Cuando tengamos todo el programa acabado y sin errores le daremos clik a compilar para ejecutar el programa en donde una ves ejecutado se mostrara el menu que se ve a continuacion:
+
+
+
+
+:fa-power-off: **Si el usuario escoje la primera opcion se le pediran sus datos personales tales como: Cedula, Nombre, Apellido, Peso, estatura y la fecha de nacimiento.**
+
+* El programa se encargara de mostrar los datos en forma de tabala y guardara estos datos para usarlos mas adelante.
+
+* El Programa Mostrara Nuevamente El Menu Principal Y En Esta Ocacion El Usuario Debera Ingresar La Segunda Opcion, La Cual Se Encargara De Calcular La Edad Actual*
+
+
+:fa-table: **El usuario debera ingresar la fecha actual y el programa se encargara de calcular con un proceso ya programado usando los datos del usuario de su fecha de nacimiento.**
+
+4. Luego mostrara la edad exacta del usuario como meses y dias, para luego mandarlo al menu principal
+
+:fa-medkit:  la opcion 3 se encargara del ambito de la salud de la masa corporal en donde si el programa analiza que su IMC esta adecuado a su altura mostrara un mensaje felicitando al usuario por su buen estado de salud caso contrario no lo va a hacer.
+
+
+
+UNA VES INGRESADO TODOS LOS DATOS SE USARA LA OPCION 4 PARA GUARDAR EL ARCHIVO COMPLETO DEL USUARIO  Y CON LA OPCION 5 RECUPERARA Y MOSTRARA EN PANTALLA TODOS LOS DATOS DEL USUARIO.
+
+
+PARA CULMINAR SE DIGITARA LA OPCION 0 PARA SALIR Y DAR POR CULMINADO EL PROCESO
+
+
+ SI USTED DESEA VERIFICAR QUE SE CREO EL DOCUMENTO DE TEXTO ESTE SE ENCONTRARA EN LA UBICACION DONDE USTED DESCARGO LOS 2 ARCHIVOS DEL PROGRAMA. :tw-1f51a:
+
+
+
