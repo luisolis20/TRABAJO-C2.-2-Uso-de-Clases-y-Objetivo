@@ -32,7 +32,8 @@ En este archivo se encuentra la funcion principal (int main), en ella se encuent
 - Una funcion que nos guarda los datos ingresados 
 - Una que nos recupere y nos muestre los datos ingresados
 
-##Descripcíón Del Proyecto 
+# Descripcíón Del Proyecto
+
 El proyecto cuenta con dos archivos anteriormente dichos (inicio.cpp y colaboradores.h)
 
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-34-49-275.jpg)
